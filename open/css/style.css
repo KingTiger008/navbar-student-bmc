@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+nav {
+    background: green;
+    flex: 1;
+}
+.container {
+    background: brown;
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.box {
+    background: skyblue;
+    width: 30%;
+    height: 100px;
+    border: 10px solid black;
+}
+footer {
+    background: blueviolet;
+    flex: 1.5;
+}
